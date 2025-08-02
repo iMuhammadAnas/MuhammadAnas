@@ -424,7 +424,6 @@ const techStack = [
   { name: "HTML", icon: "./images/html-icon.svg" },
   { name: "CSS", icon: "./images/css-icon.svg" },
   // { name: "SCSS", icon: "./images/scss-icon.svg" },
-  // { name: "Cypress", icon: "./images/cypress-icon.svg" },
 ];
 
 const tribeTechStack = [
