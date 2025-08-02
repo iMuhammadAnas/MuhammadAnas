@@ -189,7 +189,7 @@ const Portfolio = () => {
             <h2 className="font-bold text-lg tracking-widest text-white uppercase mb-10">
               Tech stack
             </h2>
-            <div className="grid grid-cols-5 gap-5 max-md:grid-cols-4 max-sm:grid-cols-3 max-[500px]:grid-cols-2">
+            <div className="grid grid-cols-5 gap-5 max-[415px]:text-[13px] max-md:grid-cols-4 max-sm:grid-cols-3 max-[500px]:grid-cols-2">
               {techStack.map((tech) => (
                 <TechItem key={tech.name} name={tech.name} icon={tech.icon} />
               ))}
