@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0c0f11;
+    font-family: Roboto, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 400;
+    margin-bottom: 20px;
+}
+
+.mobile {
+    background-color: #0c0f11;
+ }
