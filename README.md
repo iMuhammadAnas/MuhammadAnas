@@ -27,7 +27,7 @@ This is my personal portfolio website, built using **React**, **TypeScript**, an
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ![Screenshot](https://raw.githubusercontent.com/iMuhammadAnas/MuhammadAnas/refs/heads/main/public/images/portfolio-screenshot.png) <!-- Optional -->
 
