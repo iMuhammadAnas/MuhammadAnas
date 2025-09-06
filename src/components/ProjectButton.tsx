@@ -1,29 +1,27 @@
-const ProjectButton: React.FC<{
+import React from "react";
+
+interface ProjectButtonProps {
   href: string;
-  icon: React.ReactNode; // Change type from string to React.ReactNode
-  label: string;
-}> = ({ href, icon, label }) => (
-  <a
-    href={href}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-light-gray/10 hover:bg-light-gray/20 rounded-full font-bold text-white flex items-center justify-center px-4 py-2 gap-2 text-xs uppercase transition-colors"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
+  children: React.ReactNode;
+  color?: "blue" | "gray"; // tum aur bhi colors add kar sakte ho
+}
+
+const ProjectButton: React.FC<ProjectButtonProps> = ({ href, children, color = "blue" }) => {
+  const colorStyles =
+    color === "blue"
+      ? "px-4 py-2 rounded-lg border border-blue-400 text-blue-300 text-sm font-medium hover:bg-blue-500/10 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] transition duration-300"
+      : "px-4 py-2 rounded-lg border border-gray-400 text-gray-300 text-sm font-medium hover:bg-gray-500/10 hover:shadow-[0_0_10px_rgba(156,163,175,0.7)] transition duration-300";
+
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`px-4 py-2 rounded-lg text-sm font-medium transition duration-300 ${colorStyles}`}
     >
-      {icon}
-    </svg>
-    {label}
-  </a>
-);
+      {children}
+    </a>
+  );
+};
 
 export default ProjectButton;
