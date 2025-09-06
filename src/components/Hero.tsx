@@ -1,5 +1,6 @@
 import linkedInImage from "/images/linkedin-icon.svg";
 import githubImage from "/images/github-icon.svg";
+import resume from '/images/Muhammad Anas Resume.pdf';
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-start gap-6 max-md:items-center">
+      <div className="flex flex-col items-start gap-5 max-md:items-center">
         <h1 className="text-[28px] font-bold tracking-[0.03em] relative">
           <span className="text-white">Hey, I'm Anas.</span> I'm a Full-Stack{" "}
           <br className="max-md:hidden" />
@@ -28,6 +29,7 @@ const Hero = () => {
         </h1>
 
         <div className="w-full flex items-center justify-between max-md:flex-col max-md:gap-3">
+          {/* Location */}
           <a
             href="https://www.google.com/maps/place/Karachi"
             target="_blank"
@@ -37,7 +39,8 @@ const Hero = () => {
             🏠 Karachi, Pakistan.
           </a>
 
-          <div className="flex items-center gap-5 text-base max-md:mt-3">
+          {/* Social + Resume */}
+          <div className="flex items-center gap-5 text-base max-md:mt-3 m-2">
             <a
               href="https://www.linkedin.com/in/iMuhammadAnas/"
               target="_blank"
@@ -55,6 +58,15 @@ const Hero = () => {
             >
               <img src={githubImage} alt="GitHub" className="w-5 h-5" />
               GitHub
+            </a>
+            <a
+              href={resume}
+              download="Muhammad-Anas-Resume.pdf"
+              className="px-4 py-2 border border-green-500 text-green-400 rounded-lg 
+                 hover:bg-green-500/10 hover:shadow-[0_0_10px_rgba(34,197,94,0.7)] 
+                 transition duration-300 text-sm font-medium"
+            >
+              📄 Resume
             </a>
           </div>
         </div>
