@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, built using **React**, **TypeScript**, and **Tailwind CSS**. It showcases my work, skills, projects, and background as a Mernstack Developer.
 
-🌐 **Live Site:** [imuhammadanas.netlify.app](https://imuhammadanas.netlify.app/)  
+🌐 **Live Site:** [imuhammadanas.netlify.app](https://imuhammadanas.netlify.app)  
 📁 **Repository:** [GitHub Link](https://github.com/iMuhammadAnas/MuhammadAnas)
 
 ---
