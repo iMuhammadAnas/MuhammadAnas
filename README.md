@@ -1,8 +1,8 @@
-# Muhammad Anas – Portfolio Website
+# Muhammad Anas – Portfolio Website.
 
-This is my personal portfolio website, built using **React**, **TypeScript**, and **Tailwind CSS**. It showcases my work, skills, projects, and background as a frontend developer.
+This is my personal portfolio website, built using **React**, **TypeScript**, and **Tailwind CSS**. It showcases my work, skills, projects, and background as a Mernstack Developer.
 
-🌐 **Live Site:** [imuhammadanas.netlify.app](https://imuhammadanas.netlify.app/)  
+🌐 **Live Site:** [imuhammadanas.netlify.app](https://imuhammadanas.netlify.app)  
 📁 **Repository:** [GitHub Link](https://github.com/iMuhammadAnas/MuhammadAnas)
 
 ---
@@ -29,7 +29,7 @@ This is my personal portfolio website, built using **React**, **TypeScript**, an
 
 ## 📸 Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/iMuhammadAnas/MuhammadAnas/refs/heads/main/public/images/portfolio-screenshot.png) <!-- Optional -->
+![Screenshot](https://raw.githubusercontent.com/iMuhammadAnas/MuhammadAnas/refs/heads/main/public/images/portfolio-screenshot.png) 
 
 ---
 
