@@ -55,9 +55,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
           {/* Buttons */}
           <div className="flex gap-3 mt-6">
-            <ProjectButton href={liveDemo} color="blue">
-              🚀 Live Demo
-            </ProjectButton>
+            {/* if  liveDemo */}
+            {liveDemo && (
+              <ProjectButton href={liveDemo} color="blue">
+                🚀 Live Demo
+              </ProjectButton>
+            )}
             <ProjectButton href={sourceCode} color="gray">
               💻 Source Code
             </ProjectButton>

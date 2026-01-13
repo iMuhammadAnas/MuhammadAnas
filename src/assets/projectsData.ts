@@ -1,5 +1,14 @@
 export const projectsData = [
     {
+      title: "DummyInbox",
+      description:
+        "Dummyinbox is a temporary email service built with Express, EJS, and Mongoose, allowing users to create disposable inboxes.",
+      image: "https://ik.imagekit.io/iMuhammadAnas/dummyinbox.png",
+      liveDemo: "https://dummyinbox.com/",
+      sourceCode: "https://dummyinbox.com/",
+      techStack: ["Express", "EJS", "Mongoose", "Node js", "Temporary Email", "Dummyinbox", "Disposable Inbox"],
+    },
+    {
       title: "Recipe Book App",
       description:
         "Recipe Book App using React, Redux Toolkit, and React Router v7 with CRUD, auth pages, protected routes, and recipe details.",
